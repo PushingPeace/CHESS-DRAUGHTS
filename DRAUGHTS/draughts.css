@@ -1,0 +1,24 @@
+.draughtsboard {
+    width: 640px;
+    height: 640px;
+    margin: 20px;
+    border: 25px solid #333;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.black, .white {
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.black {
+    background-color: #999;
+}
+
+.white {
+    background-color: #fff;
+}
